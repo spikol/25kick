@@ -1,22 +1,20 @@
-## **Ten Ideas in Programming** for Kickstart
+# Ten Ideas in Programming
 
- … a minimal introduction to programming
+###  … a minimal introduction to programming
 
  By Morten Misfeldt – Morten Aagaard Schultz – Karl Emil Kjær Bistrup 
 
-
-
-Adapted by Daniel Spikol for Kickstart 
+Adapted by Daniel Spikol for Kickstart 2025
 
  
 
-### Introduction
+## Introduction
 
-Ten Ideas in Programming is designed to communicate a minimal set of concepts in programming and computer science that I believe everyone should encounter as part of their education. These ideas range from concrete and low-level to more abstract. They don’t attempt to cover computer science — but they represent a minimum set of ideas that serve two main purposes: 
+Ten Ideas in Programming is designed to communicate a minimal set of concepts in programming and computer science that I believe everyone should encounter as part of their education. These ideas range from concrete and low-level to more abstract. They don’t attempt to cover computer science  — but they represent a minimum set of ideas that serve two main purposes: 
 
 First, they offer a practical starting point for writing code and working with programs. Second, they provide 10 concepts that help read and understand simple programs. The goal is for the list to be understandable in a few minutes, and for the whole material to be readable within a few hours, including examples. I hope the list will also serve as a reference point to help you refine your conceptual understanding as you improve your programming skills. 
 
-I focus on just ten ideas to make the material approachable and contained. I believe that a simple “idea-oriented” introduction to programming will be beneficial when learning about programming in the age of AI – either as a stepping stone for further studies in computer science or simply to become more literate about the digital world we all live in. The order in which the ideas are presented is not entirely random. But the intention is that all ten ideas are introduced at once and then revisited as you gain more experience. 
+I focus on just ten ideas to make the material approachable and contained. I believe that a simple “idea-oriented” introduction to programming will be beneficial when learning about programming in the age of AI, either as a stepping stone for further studies in computer science or simply to become more literate about the digital world we all live in. The order in which the ideas are presented is not entirely random. But the intention is that all ten ideas are introduced at once and then revisited as you gain more experience. 
 
  After introducing the ten ideas, I have augmented the material with five key practices of a programmer, highlighting the essential aspects we consider when creating computer programs. Where the ten ideas are concepts to be understood, the practices are focused on what we do when we program and why we do it. Before I go into exemplifying the ten ideas with coding examples, I have added a short section with some suggestions on how to work with LLMs when learning to program. Towards the end of the text, I have devoted a section to more details about the intentions of the text and about the specific conception of learning that it builds upon. 
 
@@ -35,11 +33,6 @@ The third idea is variables, which are used to store and access data. Variables 
 
 *You use variables to store and refer to data, and functions to process that data in meaningful ways* 
 
-```javascript
-let fishPosition = 100;
-let eyeSize = 15;
-let playerName = "Alex";
-```
 
 The fourth idea is (**algorithms and**) **sequential processes**—computer programs perform their actions step by step, and these sequences of steps then transform data into something useful. Each step in the sequence can perform operations, such as adding or subtracting numbers, checking conditions, or calling functions. Typically, you will break down your program idea into a set of processes that work on data and variables. 
 
@@ -123,6 +116,6 @@ ellipse(fishX + 30, 190, eyeSize , eyeSize );
 
 #### 05 Collaboration with people         
 
-Finally, we **collaborate with our users**. Programs are developed for people — to help them do the activities they want to do in a more enriching, engaging, or more efficient way. An important part of programming is to think about use. If you’re trying to design a solution, it’s a good idea to understand the problem, and that is often understanding the practice that the program will support. This also means paying attention to how what you have developed is used by other people. There’s always a slight difference between what a designer or programmer has in mind and what users do. That’s why it’s important to consider both the imagined use during development and the actual use of the program after release or prototype. 
+Finally, we **collaborate with our users**. Programs are developed for people — to help them do the activities they want to do in a more enriching, engaging, or more efficient way. An important part of programming is to think about use. If you’re trying to design a solution, it’s a good idea to understand the problem, and that often means understanding the practice that the program will support. This also means paying attention to how what you have developed is used by other people. There’s always a slight difference between what a designer or programmer has in mind and what users do. That’s why it’s important to consider both the imagined use during development and the actual use of the program after release or prototype. 
 
 There are many ways to do this. In modern software development, data about user behavior is often collected directly from the software. But you can also simply sit down with the users, talk to them, understand their needs, or, when your first version is ready, observe how users tweak it to fit their needs.
