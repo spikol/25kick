@@ -27,7 +27,7 @@ DIKU Københavns Universitet
 - Casper	Brahe Rützou	
 - Ida Marie	Grøn Nielsen	
 - Jeppe	Fræhr Møller	
-- Mathilde	Parlo	
+- Mathilde Parlo	
 - Viktoria	 Silke Sofia Strandbygaard	
 
 ---
@@ -64,7 +64,7 @@ DIKU Københavns Universitet
 
 # Overal Plan for the week
 
-![bg 80%](./images/visual_schedule23.png)
+![bg 80%](../images/u33_skema.png)
 </div>
 
 ---
@@ -75,7 +75,7 @@ DIKU Københavns Universitet
 - kl. 10:00-11:15 &rarr; Team Building Activities, Mini-Lecture, and Coding
 - KL 11:15-12:00 &rarr; Processing Introduction
 - kl. 12:00 - Lunch &rarr; Options (Bio Kantine...)
-- kl. 13:00-13:30 &rarr; Aud.06 Intro to Processing
+- kl. 12:45-13:30 &rarr; UP1 Intro to Processing
 - kl. 13:30-15:00 &rarr; Team rooms - Intro to Processing
 - kl. 14:45-15:00 &rarr; Check-in with your Teams
 ---
@@ -106,10 +106,10 @@ DIKU Københavns Universitet
 
 # Teams and Instructors
 
-- **Team Alpha:** Alexander and Thea &rarr; room Øv-1-0-14
-- **Team Bravo:** Mathilde and Jeppe &rarr; room Øv-1-0-10
-- **Team Charlie:** Casper and Andrea &rarr; room Øv-1-0-04
-- **Team Delta:** Viktoria and Lucas &rarr; room Øv-3-0-25
+- **Team Alpha:** Alexander and Ida &rarr; room Øv-1-0-10
+- **Team Bravo:** Casper &rarr; room Øv-1-0-18
+- **Team Charlie:** Jeppe &rarr; room Øv-1-0-22
+- **Team Delta:** Viktoria and Mathilde &rarr; room Øv-1-0-34
 
 ![height:6cm](images/team_rooms)
 
