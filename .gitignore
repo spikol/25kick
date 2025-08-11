@@ -24,3 +24,6 @@ Thumbs.db
 
 # System files
 *.log
+
+# Private
+*.Tilmeldte til kickstart uge 33.xlsx

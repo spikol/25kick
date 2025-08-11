@@ -107,10 +107,10 @@ DIKU Københavns Universitet
 
 # Teams and Instructors
 
-- **Team Alpha:** Alexander and Ida &rarr; room Øv-1-0-10
-- **Team Bravo:** Casper &rarr; room Øv-1-0-18
-- **Team Charlie:** Jeppe &rarr; room Øv-1-0-22
-- **Team Delta:** Viktoria and Mathilde &rarr; room Øv-1-0-34
+- **Team Alpha:** Alex, Casper, and Ida &rarr; room Øv-1-0-10
+- **Team Bravo:** eppe, Mathilde, and Viktoria &rarr; room Øv-1-0-18
+- **Team Charlie:** &rarr; room Øv-1-0-22
+- **Team Delta:** &rarr; room Øv-1-0-34
 
 ![height:6cm](images/team_rooms)
 
