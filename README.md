@@ -10,6 +10,9 @@ This repository contains teaching materials for the DIKU programming kickstart c
 - **marshmallow_pair_prog_extra/**: Marshmallow challenge and pair programming materials
 - **new_slides_md/**: Course slides in Markdown format with supporting images
 
+## Worksheets 
+See [Overleaf](https://www.overleaf.com/3236247689krzfmmyzttpf#1a9705) 
+
 ## Course Overview
 
 This is a creative computing kickstart course that combines programming fundamentals with hands-on projects and collaborative learning activities.
