@@ -20,13 +20,13 @@ function setup() {
 
 function draw() {
   // Draw the first fish at x-coordinate 100
-  make_fish(100);
+  drawFish(100);
   
   // Draw the second fish at x-coordinate 280
-  make_fish(280);
+  drawFish(280);
 }
 
-function make_fish(fishX) {
+function drawFish(fishX) {
   // Draw the basic fish shape
   // Draw fish body  (fishX, 200) with a width of 120 and height of 75
   ellipse(fishX, 200, 120, 75);
