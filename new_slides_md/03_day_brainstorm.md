@@ -19,19 +19,21 @@ marp: true
 ![bg 75%](./images/modes.jpg)
 
 ---
-# Creativity
-1. **Defer judgment** – separating idea generation from idea selection strengthens both activities. 
-2. **For now, suspend critique** –  Know that you’ll have plenty of time to evaluate the ideas after the brainstorm. 
-3. **Encourage wild ideas** – breakout ideas are right next to the absurd ones 
-4. **Build on the ideas of others** – listen and add to the flow if ideas. This will springboard your group to places no individual can get to on their own. 
-5. **Go for volume** – the best way to have a good idea is to have lots of ideas 
-6. **One conversation at a time** – maintain momentum as a group. Save the side conversations for later. 
-7. **Headline** – capture the essence quickly and move on. Don’t stall the group by going into a long-winded idea. 
+## Creativity
+
+> 1. **Defer judgment** – separating idea generation from idea selection strengthens both activities.  
+> 2. **For now, suspend critique** –  Know that you’ll have plenty of time to evaluate the ideas after the brainstorm.  
+> 3. **Encourage wild ideas** – breakout ideas are right next to the absurd ones  
+> 4. **Build on the ideas of others** – listen and add to the flow if ideas. This will springboard your group to places no individual can get to on their own.  
+> 5. **Go for volume** – the best way to have a good idea is to have lots of ideas  
+> 6. **One conversation at a time** – maintain momentum as a group. Save the side conversations for later.  
+> 7. **Headline** – capture the essence quickly and move on. Don’t stall the group by going into a long-winded idea.  
+
 ---
 # Brainstorming Techniques
 
 ---
-![bg 75%](./images/suckbs.png)
+![bg 75%](./images/suck.png)
 
 ---
 # The S.U.C.K. Method

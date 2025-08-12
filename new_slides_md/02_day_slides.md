@@ -54,13 +54,15 @@ marp: true
 - **Continued Development**: Over the years, p5.js has expanded with numerous community-created libraries and tools, maintaining its commitment to open source principles, educational resources, and innovative artistic expression.
 
 ---
-<!-- _style: font-size: 18px -->
 # p5.js Program Structure
+<!-- _style: font-size: 16px -->
+- **Basic Structure**: Every p5.js sketch begins with two main functions: `setup()` and `draw()`. `setup()` runs once to set up the initial environment, while `draw()` continuously executes the code within it to create animations.
 
-- **Structure:** Every p5.js sketch has `setup()` (runs once) and `draw()` (loops for animation).
-- **Shapes:** Draw with `ellipse()`, `rect()`, `line()`. (0,0) is top-left.
-- **Color/Style:** Use `fill()`, `stroke()`, `strokeWeight()`, `noFill()`, `noStroke()`.
-- **Interactivity:** Use `mouseX`, `mouseY`, `mousePressed()`, `keyPressed()` for user input.
+- **Drawing Shapes**: Use simple functions like `ellipse(x, y, width, height)`, `rect(x, y, width, height)`, and `line(x1, y1, x2, y2)` to draw basic shapes. Coordinates start from the top-left corner (0, 0).
+
+- **Color and Style**: Set colors using `fill(r, g, b)` for shapes and `stroke(r, g, b)` for outlines. Control line thickness with `strokeWeight(weight)`. Use `noFill()` and `noStroke()` to remove fill or stroke.
+
+- **Interactivity**: Make sketches interactive by using built-in variables like `mouseX` and `mouseY` for mouse position, and functions like `mousePressed()` or `keyPressed()` to trigger actions on user input.
 
 
 ---
@@ -194,20 +196,21 @@ Rules
 
 ---
 
-## Conversations between driver and navigator
+# Conversations between driver and navigator
 
-Good pair programming is not without communication and talk.
-Talk together as a pair about what is happening on the screen.
-Reflect on what you have done and where you are going.
-The driver tells what they are doing and what is happening.
-The navigator makes comments, ensures they are running with the right thing and tells what they have to do now and later.
+<div style="font-size: 16px;">
+- Good pair programming is not without communication and talk.
+- Talk together as a pair about what is happening on the screen.
+- Reflect on what you have done and where you are going.
+- The driver tells what they are doing and what is happening.
+- The navigator makes comments, ensures they are running with the right thing and tells what they have to do now and later.
 
 Examples:
-
 - Driver: "Now we create a new function to draw a sunflower."
 - Driver: "Now we just test whether XYZ works before we continue."
 - Navigator: "How can you do that?"
 - Navigator: "Can you explain what you're doing?"
+</div>
 
 ---
 

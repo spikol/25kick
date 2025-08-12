@@ -10,13 +10,12 @@ marp: true
 # Hello Wednesday 
 
 ---
-# Kickstart-kursus i programmering 23 dag 3
+# Kickstart-kursus i programmering dag 3
 **Daniel Spikol**  
 *ds@di.ku.dk*
 
 **DIKU \\ Københavns Universitet**  
-**14. august 2023**
-
+**13. august 2023**
 
 ---
 
@@ -74,7 +73,7 @@ function draw() {
 ```java
 function setup() {
   createCanvas(400, 400);
-  var myVar = 42;
+  let myVar = 42;
   print(myVar); // This prints 42
 }
 
@@ -91,7 +90,8 @@ function draw() {
 **The setup() and draw() Functions**: In Processing.py, `setup()` is called once at the beginning of the sketch, and `draw()` is called repeatedly, producing frames.
 
 ```java
-var x = 0;
+// global variable
+let x = 0;
 
 function setup() {
   createCanvas(400, 400);
@@ -207,7 +207,7 @@ if (x > 10 && y<5){
 # Conditionals in p5.js
 For instance, to animate a circle moving across the screen and to make it wrap around when it reaches the edge:
 ```java
-var x_pos = 0; //set the x postion
+let x_pos = 0; //set the x postion
 
 function setup() {
   createCanvas(400, 400);
@@ -345,8 +345,8 @@ function draw() {
 
 ```java
 //global vars
-var state_on = "ON";
-var state_off = "OFF";
+let state_on = "ON";
+let state_off = "OFF";
 
 //initial state
 current_state = state_off;
