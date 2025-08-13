@@ -50,7 +50,7 @@ marp: true
 ---
 # Global Variable example
 ```java
-var globalVarX = 50;
+let globalVarX = 50;
 
 function setup() {
   createCanvas(400, 400);
@@ -95,7 +95,7 @@ let x = 0;
 
 function setup() {
   createCanvas(400, 400);
-  var x;
+  let x;
   x = width / 2;
 }
 
@@ -110,12 +110,118 @@ Variables declared in `setup()` are local to `setup()`. Still, often you want to
 </div>
 
 ---
+# Debugging Strategies <!--fit-->
+---
+# Debugging in Programming
+## Essential Skills for Every Coder
 
+**Your best debugging tool is something you already have: your brain!**
+
+*Getting errors is totally normal - it happens to every programmer, every time they write code.*
+
+---
+
+# Start with Your Brain 🧠
+
+## Be Specific About the Problem
+- **Don't say**: "I wanted to draw a flower but it's not working"
+- **Do say**: "I expected a red circle in the upper-left corner, but I only see half a circle at the top"
+
+## Read Your Code Line by Line
+- Double-check spelling, capitalization, keywords, and symbols
+- Use paper and pencil to trace through your code
+- Write down variable values as you go
+- **Don't assume** - take it one line at a time
+- Reading out loud can help!
+
+---
+
+# Three Types of Errors <!--fit-->
+
+---
+
+# 1. **Syntax Errors** - Computer can't understand your code
+```javascript
+function draw {  // Missing () parentheses!
+  background(220);
+}
+// Error: Unexpected token '{'
+```
+---
+# 2. **Runtime Errors** - Code runs but breaks during execution
+```javascript
+function draw() {
+  background(myColor);  // myColor is not defined!
+}
+// Error: myColor is not defined
+```
+---
+# 3. **Logic Errors** - Code runs but does something unexpected
+```javascript
+// Circle appears in wrong place because width/height 
+// are calculated before createCanvas()
+```
+
+---
+
+# Debugging Tools & Techniques
+
+## Use console.log() to Track Variables
+```javascript
+let circleX = width / 2;
+console.log('circleX: ' + circleX);  // Check the value!
+
+function draw() {
+  console.log('frameCount: ' + frameCount);  // Track animation
+  circle(circleX, 100, 50);
+}
+```
+---
+# Research Errors Effectively
+- **Copy the exact error message** and search for it
+- Add "p5.js" or "JavaScript" to your search
+- Use quotes for exact matches: `"Unexpected token"`
+- Look for Stack Overflow and Processing forum posts
+- Sometimes search only part of the error (without your variable names)
+
+---
+
+# Best Debugging Practices
+
+## Start Small and Test Often
+- **Don't write your whole program at once!**
+- Test after every few lines of code
+- It's easier to find bugs in code you just wrote
+- Create small example programs (MCVE) to isolate problems
+  
+---
+# Other Powerful Techniques
+- **Rubber Duck Debugging** 🦆 - Explain your problem out loud to anything
+- **Take Breaks** - Solutions often come when you step away
+- **Use Browser Developer Tools** - Press F12 for advanced debugging
+- **Comment Out Code** - Use `//` to temporarily disable problematic sections
+
+---
+# Remember: Debugging is a Normal Part of Programming!
+*"Making mistakes and fixing them is how we learn and grow as programmers"*
+
+---
+
+# Conditionals <!--fit-->
+
+---
+
+# Flowchart Condition
+![bg 60%](./images/flow_rain.png)
+
+
+---
 # Conditionals in Computer Science
 - Conditionals in computer science refer to constructs that allow for decision-making in code.
 - They determine the flow of execution based on whether a given condition is true or false.
 - Depending on the outcome of the condition, different blocks of code will be executed.
 - Specifically, conditionals perform different computations or actions depending on whether a programmer-defined boolean condition evaluates to true or false.
+
 
 ---
 <div  style="font-size:15 px;">
@@ -139,13 +245,6 @@ Variables declared in `setup()` are local to `setup()`. Still, often you want to
 </div>
 
 ---
-
-# Flowchart Condition
-![bg 60%](./images/flow_rain.png)
-
-
----
-
 
 # Conditionals
 - **If Statement:** Executes a code block if a specified condition is true.
@@ -172,15 +271,15 @@ p5js supports the usual logical conditions from mathematics:
 ## if:
 ```java
 if (x > 10){
-    print("x is greater than 10")
+    console.log("x is greater than 10")
 }
 ```
 ## else:
 ```java
 if (x > 10) {
-    print("x is greater than 10");
+    console.log("x is greater than 10");
   } else {
-    print("x is 10 or less");
+    console.log("x is 10 or less");
   }
 ```
 ---
@@ -188,17 +287,17 @@ if (x > 10) {
 
 ## else if:
 ```java
-x = 13;
+let x = 13;
   if (x > 10) {
-    print("x is greater than 10");
+    console.log("x is greater than 10");
   } else if (x == 10) {
-    print("x is 10 or less");
+    console.log("x is 10 or less");
   }
 ```
 You can also combine conditions using logical operators (`and, or, not`):
 ```java
 if (x > 10 && y<5){
-    print("x is greater than 10");
+    console.log("x is greater than 10");
   }
 ```
 

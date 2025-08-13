@@ -10,7 +10,7 @@ paginate: true
 ![bg 50%](./image_bank/dog_cakes.png)
 
 ---
-# Kickstart-kursus i programmering 23 dag 5
+# Kickstart-kursus i programmering dag 5
 
 ![height:300px](images/fish)
 
@@ -18,7 +18,7 @@ paginate: true
 ### ds@di.ku.dk
 
 ## DIKU, Københavns Universitet
-### 22. august 2023
+### 16. august 2025
 
 
 ---

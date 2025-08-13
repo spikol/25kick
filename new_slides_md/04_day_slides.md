@@ -5,12 +5,12 @@ paginate: true
 marp: true
 ---
 
-# Kickstart-kursus i programmering 23 dag 4
+# Kickstart-kursus i programmering dag 4
 **Daniel Spikol**  
 *ds@di.ku.dk*
 
 **DIKU \\ Københavns Universitet**  
-**17. august 2023**
+**15. august 2025**
 
 ---
 
