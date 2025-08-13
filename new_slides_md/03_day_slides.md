@@ -15,7 +15,7 @@ marp: true
 *ds@di.ku.dk*
 
 **DIKU \\ Københavns Universitet**  
-**13. august 2023**
+**13. august 2025**
 
 ---
 
@@ -120,20 +120,19 @@ Variables declared in `setup()` are local to `setup()`. Still, often you want to
 *Getting errors is totally normal - it happens to every programmer, every time they write code.*
 
 ---
+## Start with Your Brain 🧠
 
-# Start with Your Brain 🧠
-
-## Be Specific About the Problem
+**Be Specific About the Problem**
 - **Don't say**: "I wanted to draw a flower but it's not working"
 - **Do say**: "I expected a red circle in the upper-left corner, but I only see half a circle at the top"
 
-## Read Your Code Line by Line
+**Read Your Code Line by Line**
 - Double-check spelling, capitalization, keywords, and symbols
 - Use paper and pencil to trace through your code
 - Write down variable values as you go
 - **Don't assume** - take it one line at a time
 - Reading out loud can help!
-
+  
 ---
 
 # Three Types of Errors <!--fit-->
@@ -192,8 +191,8 @@ function draw() {
 - **Don't write your whole program at once!**
 - Test after every few lines of code
 - It's easier to find bugs in code you just wrote
-- Create small example programs (MCVE) to isolate problems
-  
+- Create small example programs (MCVE*) to isolate problems
+  (**Minimal Complete Verifiable Example*)
 ---
 # Other Powerful Techniques
 - **Rubber Duck Debugging** 🦆 - Explain your problem out loud to anything
