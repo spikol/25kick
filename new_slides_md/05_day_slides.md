@@ -18,7 +18,7 @@ paginate: true
 ### ds@di.ku.dk
 
 ## DIKU, Københavns Universitet
-### 16. august 2025
+### 14. august 2025
 
 
 ---
