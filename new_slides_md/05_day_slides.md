@@ -18,7 +18,7 @@ paginate: true
 ### ds@di.ku.dk
 
 ## DIKU, Københavns Universitet
-### 14. august 2025
+### 15. august 2025
 
 
 ---
@@ -29,12 +29,9 @@ paginate: true
 - 9.00 - 9.15 Recap
 - 9.20 - 9.30 Survey and Thanks!
 - 9.30 - 11.45 Project work
-- 11.45 - 12.30 Lunch
-- 12.30 - 13.00 Final prep
-- 13.00 - 13.30 Show and Talk Session Delta
-- 13.30 - 14.00 Show and Talk Session Charlie
-- 14.00 - 14.30 Show and Talk Session Bravo
-- 14.30 - 15:30 Show and Talk Session Alpha
+- 11.30 - 12.15 Lunch
+- 12.15 - 13.30 Final prep
+- 13.30 - 14.30 Show and Talk Sessions
 
 ---
 
@@ -48,7 +45,7 @@ paginate: true
 # Hackathon
 ![bg right 90%](./image_bank/hacka.png)
 - Show up if not going on DIKU Hyttetur
-- August 28th 0900 - 1600
+27 August 0900 - 1600
 
 ---
 # DIKU things
@@ -67,27 +64,26 @@ paginate: true
 - Absalon!
 
 ---
-
-# Show and Talk: Sessions
-
-**Round 1 &rarr; KL 13.00 - 13:30 &rarr; Host Delta**
-  - **Visitors**: Alpha, Bravo, and Charlie
-  
-**Round 2 &rarr; KL 13.30 - 14.00 &rarr; Host Charlie**
-  - **Visitors:** Alpha, Beta, and Delta
- 
-**Round 3 &rarr; 14:00 - 14:30 &rarr; Host Bravo**
-  - **Visitors:** Alpha, Charlie, and Delta
-
-**Round 3 &rarr; 14:00 - 14:30 &rarr; Host Alpha**
-  - **Visitors:** Bravo, Charlie and Delta
----
 <!-- _color: white -->
 # Thanks! Remember Grit<!--fit -->
 
 ![bg](./images/grit.jpg)
 
 ---
-<!-- _color: yellow -->
-# Doesn't always work with your plans<!--fit -->
-![bg](./image_bank/grit2.jpg)
+
+
+<!--
+# Show and Talk: Sessions
+
+**Round 1 &rarr; KL 13.00 - 13:30 &rarr; Host Delta**
+  - **Visitors**: Alpha, Bravo, and Charlie
+
+**Round 2 &rarr; KL 13.30 - 14.00 &rarr; Host Charlie**
+  - **Visitors:** Alpha, Beta, and Delta
+
+**Round 3 &rarr; 14:00 - 14:30 &rarr; Host Bravo**
+  - **Visitors:** Alpha, Charlie, and Delta
+
+**Round 3 &rarr; 14:00 - 14:30 &rarr; Host Alpha**
+  - **Visitors:** Bravo, Charlie and Delta
+-->
