@@ -15,7 +15,7 @@ marp: true
 *ds@di.ku.dk*
 
 **DIKU \\ Københavns Universitet**  
-**12. august 2025**
+**August 2025**
 
 ![height:1.5cm](ku_logo_dk)
 
@@ -54,8 +54,8 @@ marp: true
 - **Continued Development**: Over the years, p5.js has expanded with numerous community-created libraries and tools, maintaining its commitment to open source principles, educational resources, and innovative artistic expression.
 
 ---
-# p5.js Program Structure
-<!-- _style: font-size: 16px -->
+
+## p5.js Program Structure
 - **Basic Structure**: Every p5.js sketch begins with two main functions: `setup()` and `draw()`. `setup()` runs once to set up the initial environment, while `draw()` continuously executes the code within it to create animations.
 
 - **Drawing Shapes**: Use simple functions like `ellipse(x, y, width, height)`, `rect(x, y, width, height)`, and `line(x1, y1, x2, y2)` to draw basic shapes. Coordinates start from the top-left corner (0, 0).
@@ -63,7 +63,6 @@ marp: true
 - **Color and Style**: Set colors using `fill(r, g, b)` for shapes and `stroke(r, g, b)` for outlines. Control line thickness with `strokeWeight(weight)`. Use `noFill()` and `noStroke()` to remove fill or stroke.
 
 - **Interactivity**: Make sketches interactive by using built-in variables like `mouseX` and `mouseY` for mouse position, and functions like `mousePressed()` or `keyPressed()` to trigger actions on user input.
-
 
 ---
 

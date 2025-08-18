@@ -65,7 +65,7 @@ DIKU Københavns Universitet
 
 # Overal Plan for the week
 
-![bg 80%](../images/u33_skema.png)
+![bg 80%](./images/sessionplan_u34.png)
 </div>
 
 ---
