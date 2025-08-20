@@ -15,7 +15,7 @@ marp: true
 *ds@di.ku.dk*
 
 **DIKU \\ Københavns Universitet**  
-**13. august 2025**
+August 2025
 
 ---
 
@@ -30,10 +30,17 @@ marp: true
 # Wednesday IFOs
 - Variable Scoping
 - Draw() function
-- Conditionals
+- Conditionals and FSM
 - Sounds
 - Ideation
 
+---
+# Brainstorming Schedule
+
+- 12:30 Team Charlie
+- 12:55 Team Beta
+- 13.20 Team Alpha
+  
 ---
 
 # Variable Scoping Processing
@@ -82,32 +89,6 @@ function draw() {
   print(myVar); // This returns error, not defined
 }
 ```
-
----
-<div style="font-size: 16 px;">
-
-# Variable Scoping Processing
-**The setup() and draw() Functions**: In Processing.py, `setup()` is called once at the beginning of the sketch, and `draw()` is called repeatedly, producing frames.
-
-```java
-// global variable
-let x = 0;
-
-function setup() {
-  createCanvas(400, 400);
-  let x;
-  x = width / 2;
-}
-
-function draw() {
-  background(220);
-  ellipse(x, height / 2, 50, 50);
-  x += 1;
-}
-```
-
-Variables declared in `setup()` are local to `setup()`. Still, often you want to declare global variables at the top level of your sketch and then initialise or modify them in `setup()`.
-</div>
 
 ---
 # Debugging Strategies <!--fit-->
